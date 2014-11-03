@@ -1,0 +1,3 @@
+Noter til mig selv
+
+<div class="side-box ruled-top"> er til sidebar med næsten gennemsigtigt top linje
