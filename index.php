@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="T-T9OwxCw6zfGnZROPEbNFVJPLkxz0ZbYlPPtlgYu3I" />
+  <meta name="author" content="Jens Møller">
   
   <title>{Title}{block:TagPage} &bull; Alle indlæg tagget med &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
 
@@ -118,9 +119,8 @@
   {block:PermalinkPage}
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@jensz12">
+    <meta name="twitter:site" content="@jensz12site">
     <meta name="twitter:creator" content="@jensz12">
-    <meta name="twitter:domain" content="http://blog.jensz12.com">
     <meta name="twitter:image" content="{image:Banner}">
     <meta property="og:url" content="{Permalink}"/>
     <meta property="og:type" content="article"/>
@@ -176,8 +176,7 @@
         {block:AlbumArt}<meta property="og:image" content="{AlbumArtURL}"/><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:AlbumArt}{/block:Audio}
 
       {block:Video}
-        {block:Caption}<meta property="og:description" content="{PlaintextCaption}"/><meta name="twitter:description" content="{PlaintextCaption}"> <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
-        <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Caption}
+        {block:Caption}<meta property="og:description" content="{PlaintextCaption}"/><meta name="twitter:description" content="{PlaintextCaption}"><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Caption}
       {/block:Video}
 
       {block:Answer}
@@ -813,7 +812,9 @@
               {Description}
             </div><!--/.description-->
           {/block:IfShowDescription}
-        </div><div><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:113314883&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></div><div></div><div><h2>Hvad lytter jeg til</h2></div><div><iframe src="http://jensz12.com/static/script/lastfm.php" width="220" height="200"></iframe></div><!--/#blog-info -->
+        </div>
+        <div class="side-box ruled-top"><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:113314883&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></div><div></div>
+        <div class="side-box ruled-top"><h2>Hvad lytter jeg til</h2></div><div><iframe src="http://jensz12.com/static/script/lastfmblog.php" width="220" height="200"></iframe></div><!--/#blog-info -->
 
         {block:IfSearchBoxInSidebar}
           <div id="search">
