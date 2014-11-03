@@ -1,7 +1,7 @@
 Tumblr-theme
 ============
 
-Mit tema på Tumblr
+Mit tema på Tumblr: http://blog.jensz12.com
 
 Temaet er en custom udgave af Effector temaet. Lavet af Pixel Union https://www.pixelunion.net/themes/tumblr/effector-theme/
 
