@@ -124,7 +124,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@jensz12site">
     <meta name="twitter:creator" content="@jensz12">
-    <meta name="twitter:image" content="{image:Banner}">
+    <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
     <meta property="og:url" content="{Permalink}"/>
     <meta property="og:type" content="article"/>
 
@@ -135,14 +135,14 @@
       {/block:Text}
 
       {block:Photo}
-        <meta property="og:image" content="{PhotoURL-500}"/>
-        <meta name="twitter:image" content="{PhotoURL-500}">
+        <meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/>
+        <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
         <meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
         {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}">{/block:Caption}
       {/block:Photo}
 
       {block:Photoset}
-        {block:Photos}<meta property="og:image" content="{PhotoURL-500}"/><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Photos}
+        {block:Photos}<meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/><meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"><meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">{/block:Photos}
         {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}">{/block:Caption}
       {/block:Photoset}
 
@@ -150,45 +150,45 @@
         <meta property="og:title" content="{PlaintextQuote}"/>
         <meta property="og:description" content="{MetaDescription}"/>
         <meta name="twitter:description" content="{MetaDescription}">
-        <meta property="og:image" content="{PortraitURL-64}"/>
-        <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
-        <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
+        <meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/>
+        <meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+        <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
       {/block:Quote}
 
       {block:Link}
         <meta property="og:title" content="{PlaintextName}"/>
         <meta property="og:description" content="{MetaDescription}"/>
         <meta name="twitter:description" content="{MetaDescription}">
-        <meta property="og:image" content="{PortraitURL-64}"/>
-        <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
-        <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
+        <meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/>
+        <meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+        <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
       {/block:Link}
 
       {block:Chat}
         <meta property="og:title" content="{PlaintextTitle}"/>
         <meta property="og:description" content="{block:Lines}{block:Label}{Label}: {/block:Label}{Line} &bull; {/block:Lines}"/>
         <meta name="twitter:description" content="{block:Lines}{block:Label}{Label}: {/block:Label}{Line} &bull; {/block:Lines}">
-        <meta property="og:image" content="{PortraitURL-64}"/>
-        <meta name="twitter:image:src" content="{image:Banner}">
-        <meta name="twitter:image" content="{image:Banner}">
+        <meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/>
+        <meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+        <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
       {/block:Chat}
 
       {block:Audio}
         <meta property="og:title" content="{block:Artist}{Artist} - {/block:Artist}{block:TrackName}{TrackName}{/block:TrackName}"/>
         <meta property="og:description" content="{PlaintextCaption}"/><meta name="twitter:description" content="{PlaintextCaption}">
-        {block:AlbumArt}<meta property="og:image" content="{AlbumArtURL}"/><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:AlbumArt}{/block:Audio}
+        {block:AlbumArt}<meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/><meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"><meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">{/block:AlbumArt}{/block:Audio}
 
       {block:Video}
-        {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}"><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Caption}
+        {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}"><meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"><meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">{/block:Caption}
       {/block:Video}
 
       {block:Answer}
         <meta property="og:title" content="{PlaintextQuestion}"/>
         <meta property="og:description" content="{MetaDescription}"/>
         <meta name="twitter:description" content="{MetaDescription}">
-        <meta property="og:image" content="{PortraitURL-64}"/>
-        <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
-        <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
+        <meta property="og:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"/>
+        <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+        <meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
       {/block:Answer}
 
     {/block:Posts}
