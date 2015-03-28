@@ -1,27 +1,27 @@
 #sidebar .portrait, #sidebar .large-portrait {   border: 0;  -webkit-box-shadow: none;     -moz-box-shadow: none;          box-shadow: none;} #sidebar .large-portrait {  max-width: 180px;  min-width: 180px;}
 
 a, span  {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu-labels .menu .label {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 #twitter .profile .bio, #likes .via {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 #search-form input {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .type-answer h2.user-question, .meta, .type-quote .quote-text{
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 input, textarea {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 #tabs #tabs-nav {
@@ -32,5 +32,5 @@ input, textarea {
     font-size: 13px;   
 }
 .screen {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
