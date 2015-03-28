@@ -130,26 +130,26 @@
 
     {block:Posts}
       {block:Text}
-        {block:Title}<meta property="og:title" content="{PlaintextTitle}"/><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Title}
-        <meta property="og:description" content="{PlaintextBody}"/><meta name="twitter:description" content="{PlaintextCaption}">
+        {block:Title}<meta property="og:title" content="{PlaintextTitle}"/><meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png"><meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">{/block:Title}
+        <meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}">
       {/block:Text}
 
       {block:Photo}
         <meta property="og:image" content="{PhotoURL-500}"/>
         <meta name="twitter:image" content="{PhotoURL-500}">
-        <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
-        {block:Caption}<meta property="og:description" content="{PlaintextCaption}"/><meta name="twitter:description" content="{PlaintextCaption}">{/block:Caption}
+        <meta name="twitter:image:src" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+        {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}">{/block:Caption}
       {/block:Photo}
 
       {block:Photoset}
         {block:Photos}<meta property="og:image" content="{PhotoURL-500}"/><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Photos}
-        {block:Caption}<meta property="og:description" content="{PlaintextCaption}"/><meta name="twitter:description" content="{PlaintextCaption}">{/block:Caption}
+        {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}">{/block:Caption}
       {/block:Photoset}
 
       {block:Quote}
         <meta property="og:title" content="{PlaintextQuote}"/>
-        <meta property="og:description" content="{PlaintextSource}"/>
-        <meta name="twitter:description" content="{PlaintextSource}">
+        <meta property="og:description" content="{MetaDescription}"/>
+        <meta name="twitter:description" content="{MetaDescription}">
         <meta property="og:image" content="{PortraitURL-64}"/>
         <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
         <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
@@ -157,8 +157,8 @@
 
       {block:Link}
         <meta property="og:title" content="{PlaintextName}"/>
-        <meta property="og:description" content="{PlaintextDescription}"/>
-        <meta name="twitter:description" content="{PlaintextCaption}">
+        <meta property="og:description" content="{MetaDescription}"/>
+        <meta name="twitter:description" content="{MetaDescription}">
         <meta property="og:image" content="{PortraitURL-64}"/>
         <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
         <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
@@ -179,13 +179,13 @@
         {block:AlbumArt}<meta property="og:image" content="{AlbumArtURL}"/><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:AlbumArt}{/block:Audio}
 
       {block:Video}
-        {block:Caption}<meta property="og:description" content="{PlaintextCaption}"/><meta name="twitter:description" content="{PlaintextCaption}"><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Caption}
+        {block:Caption}<meta property="og:description" content="{MetaDescription}"/><meta name="twitter:description" content="{MetaDescription}"><meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png"><meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">{/block:Caption}
       {/block:Video}
 
       {block:Answer}
         <meta property="og:title" content="{PlaintextQuestion}"/>
-        <meta property="og:description" content="{PlaintextAnswer}"/>
-        <meta name="twitter:description" content="{PlaintextAnswer}">
+        <meta property="og:description" content="{MetaDescription}"/>
+        <meta name="twitter:description" content="{MetaDescription}">
         <meta property="og:image" content="{PortraitURL-64}"/>
         <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
         <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
