@@ -4,11 +4,14 @@
 <!--[if IE 8 ]> <html lang="en" class="no-js ie8 lte-ie8"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
+  <link rel="manifest" href="http://static.jensz12.com/blog/manifest.json">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="T-T9OwxCw6zfGnZROPEbNFVJPLkxz0ZbYlPPtlgYu3I" />
   <meta name="author" content="Jens Møller">
+  <meta name="theme-color" content="#CF2525">
+  <link rel="icon" sizes="192x192" href="http://static.jensz12.com/images/192.png">
   
   <title>{Title}{block:TagPage} &bull; Alle indlæg tagget med &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
 
@@ -202,7 +205,7 @@
     <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
   {/block:IndexPage}
 
-  <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="http://jensz12.com/favicon.ico" />
   <link rel="apple-touch-icon" href="http://static.jensz12.com/images/favicon.png" />
   <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
@@ -247,7 +250,7 @@
   </script>
   <style type="text/css">
     body {
-      font-family: 'Coming Soon', cursive;
+      font-family: 'Roboto', sans-serif;
       color:{color:Outside Text};
       background-color:{color:Background};
       {block:IfBackgroundImage}background-image:url({image:Background});
@@ -264,12 +267,12 @@
     #footer h2,
     #footer h3,
     p {
-      font-family: 'Coming Soon', cursive; 
+      font-family: 'Roboto', sans-serif;
       
     }
 
     .copy {
-      font-family: 'Coming Soon', cursive; 
+      font-family: 'Roboto', sans-serif; 
     }
     
     .copy h1,
@@ -283,7 +286,7 @@
     #notes h2,
     #disqus h2,
     .speaker {
-      font-family: 'Coming Soon', cursive; 
+      font-family: 'Roboto', sans-serif; 
     }
 
     #tabs #tabs-nav h2 span.active {
@@ -562,7 +565,7 @@
                           <a class="photo-url" href="{PhotoURL-HighRes}">Åben i nyt vindue</a>
                         </div>
                       </div>
-                    {/block:Photos}
+                     {/block:Photos}
                   </div><!-- close PHOTOSET -->
                   <div class="navi"><a href="#" class="prev"><span>Forrige</span></a><a href="#" class="next"><span>Næste</span></a></div>
                 </div><!-- close MEDIA -->
@@ -1025,8 +1028,7 @@
     <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/{text:GetClicky Site ID}ns.gif" /></p></noscript>
   {/block:IfGetClickySiteID}
 </body>
-<footer><script src="http://static.jensz12.com/script/privacy/cookiesamtykke.js"></script></footer>
-</html>
+<footer><script src="http://static.jensz12.com/script/privacy/cookiesamtykke.js"></script></footer></html>
 <!--  
     ___  _______   ________   ________  ________   _____    _______     
    |\  \|\  ___ \ |\   ___  \|\   ____\|\_____  \ / __  \  /  ___  \    
