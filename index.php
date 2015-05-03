@@ -4,14 +4,14 @@
 <!--[if IE 8 ]> <html lang="en" class="no-js ie8 lte-ie8"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-  <link rel="manifest" href="http://static.jensz12.com/blog/manifest.json">
+  <link rel="manifest" href="https://jensz12.com/static/blog/manifest.json">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="T-T9OwxCw6zfGnZROPEbNFVJPLkxz0ZbYlPPtlgYu3I" />
   <meta name="author" content="Jens Møller">
   <meta name="theme-color" content="#CF2525">
-  <link rel="icon" sizes="192x192" href="http://static.jensz12.com/images/192.png">
+  <link rel="icon" sizes="192x192" href="https://jensz12.com/static/images/192.png">
   
   <title>{Title}{block:TagPage} &bull; Alle indlæg tagget med &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
 
@@ -201,13 +201,13 @@
     <meta property="og:description" content="{MetaDescription}"/>
     <meta name="twitter:description" content="{MetaDescription}">
     <meta property="og:image" content="{PortraitURL-64}"/>
-    <meta name="twitter:image" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
-    <meta name="twitter:image:src" content="http://jensz12.com/wp-content/uploads/2013/12/Jnew.png">
+    <meta name="twitter:image" content="https://secure.static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+    <meta name="twitter:image:src" content="https://secure.static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
   {/block:IndexPage}
 
   <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="http://jensz12.com/favicon.ico" />
-  <link rel="apple-touch-icon" href="http://static.jensz12.com/images/favicon.png" />
+  <link rel="shortcut icon" href="https://jensz12.com/favicon.png" />
+  <link rel="apple-touch-icon" href="https://jensz12.com/favicon.png" />
   <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
   <link rel="stylesheet" href="http://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
   <link href="http://static.tumblr.com/hugxd2w/NA2mtcd2h/style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -454,7 +454,7 @@
       {block:IfPagesInTopBar}
         {block:HasPages}
           <ul class="pages"> 
-          <li><a href="http://jensz12.com/privacy"><img src="http://jensz12.com/static/images/privacyicon/iconsmall.png"> Cookie- & privatliv</a></li>
+          <li><a href="https://jensz12.com/privacy"><img src="https://jensz12.com/static/images/privacyicon/iconsmall.png"> Cookie- & privatliv</a></li>
             {block:Pages}
               <li><a href="{URL}">{Label}</a></li>
             {/block:Pages}
@@ -817,7 +817,7 @@
           {/block:IfShowDescription}
         </div>
         <div class="side-box ruled-top"><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:113314883&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></div><div></div>
-        <div class="side-box ruled-top"><h2>Hvad lytter jeg til</h2></div><div><iframe src="http://jensz12.com/static/script/lastfmblog.php" width="220" height="200"></iframe></div><!--/#blog-info -->
+        <div class="side-box ruled-top"><h2>Hvad lytter jeg til</h2></div><div><iframe src="https://jensz12.com/static/script/lastfmblog.php" width="220" height="200"></iframe></div><!--/#blog-info -->
 
         {block:IfSearchBoxInSidebar}
           <div id="search">
@@ -972,7 +972,7 @@
             {block:AskEnabled}<li><a href="/ask">{AskLabel}</a></li>{/block:AskEnabled}
             {block:SubmissionsEnabled}<li><a href="/submit">{SubmitLabel}</a></li>{/block:SubmissionsEnabled}
             <li><a href="/mobile">Skrabet mobil version</a></li>
-            <li><a href="http://jensz12.com/privacy"><img src="http://jensz12.com/static/images/privacyicon/iconsmall.png" height="10" width="10"> Cookie- & privatliv</a></li>
+            <li><a href="https://jensz12.com/privacy"><img src="https://jensz12.com/static/images/privacyicon/iconsmall.png" height="10" width="10"> Cookie- & privatliv</a></li>
           </ul>
           {block:IfCopyrightText}<p class="copyright">{text:Copyright Text}.</p>{/block:IfCopyrightText}
         </div>
@@ -1028,7 +1028,7 @@
     <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/{text:GetClicky Site ID}ns.gif" /></p></noscript>
   {/block:IfGetClickySiteID}
 </body>
-<footer><script src="http://static.jensz12.com/script/privacy/cookiesamtykke.js"></script></footer></html>
+<footer><script src="https://jensz12.com/static/script/privacy/cookiesamtykke.js"></script></footer></html>
 <!--  
     ___  _______   ________   ________  ________   _____    _______     
    |\  \|\  ___ \ |\   ___  \|\   ____\|\_____  \ / __  \  /  ___  \    
