@@ -4,7 +4,6 @@
 <!--[if IE 8 ]> <html lang="en" class="no-js ie8 lte-ie8"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-  <link rel="manifest" href="https://jensz12.com/static/blog/manifest.json">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,7 +12,7 @@
   <meta name="theme-color" content="#CF2525">
   <link rel="icon" sizes="192x192" href="https://jensz12.com/static/images/192.png">
   
-  <title>{Title}{block:TagPage} &bull; Alle indlæg tagget med &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
+  <title>{Title}{block:TagPage} &bull; Alle indlæg mærket med &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
 
   {block:Description}
     <meta name="description" content="{MetaDescription}"/>
@@ -122,7 +121,7 @@
   {block:PermalinkPage}
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@jensz12site">
+    <meta name="twitter:site" content="@jensz12">
     <meta name="twitter:creator" content="@jensz12">
     <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
     <meta property="og:url" content="{Permalink}"/>
@@ -254,7 +253,9 @@
       color:{color:Outside Text};
       background-color:{color:Background};
       {block:IfBackgroundImage}background-image:url({image:Background});
-      background-repeat:repeat;
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position: center center;
       {block:IfFixedBackground}background-attachment:fixed;
       {/block:IfFixedBackground}{/block:IfBackgroundImage}
     }
@@ -454,7 +455,6 @@
       {block:IfPagesInTopBar}
         {block:HasPages}
           <ul class="pages"> 
-          <li><a href="https://jensz12.com/privacy"><img src="https://jensz12.com/static/images/privacyicon/iconsmall.png"> Cookie- & privatliv</a></li>
             {block:Pages}
               <li><a href="{URL}">{Label}</a></li>
             {/block:Pages}
@@ -972,7 +972,6 @@
             {block:AskEnabled}<li><a href="/ask">{AskLabel}</a></li>{/block:AskEnabled}
             {block:SubmissionsEnabled}<li><a href="/submit">{SubmitLabel}</a></li>{/block:SubmissionsEnabled}
             <li><a href="/mobile">Skrabet mobil version</a></li>
-            <li><a href="https://jensz12.com/privacy"><img src="https://jensz12.com/static/images/privacyicon/iconsmall.png" height="10" width="10"> Cookie- & privatliv</a></li>
           </ul>
           {block:IfCopyrightText}<p class="copyright">{text:Copyright Text}.</p>{/block:IfCopyrightText}
         </div>
@@ -1028,7 +1027,7 @@
     <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/{text:GetClicky Site ID}ns.gif" /></p></noscript>
   {/block:IfGetClickySiteID}
 </body>
-<footer><script src="https://jensz12.com/static/script/privacy/cookiesamtykke.js"></script></footer></html>
+</html>
 <!--  
     ___  _______   ________   ________  ________   _____    _______     
    |\  \|\  ___ \ |\   ___  \|\   ____\|\_____  \ / __  \  /  ___  \    
