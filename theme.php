@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="T-T9OwxCw6zfGnZROPEbNFVJPLkxz0ZbYlPPtlgYu3I" />
   <meta name="author" content="Jens Møller">
-  <meta name="theme-color" content="#CF2525">
+  <meta name="theme-color" content="#d50000">
   <link rel="icon" sizes="192x192" href="https://jensz12.com/static/images/192.png">
   
   <title>{Title}{block:TagPage} &bull; Alle indlæg mærket med &lsquo;{Tag}&rsquo;{/block:TagPage}{block:PostSummary} &bull; {PostSummary}{/block:PostSummary}</title>
@@ -27,10 +27,10 @@
   <meta name="color:Outside Link" content="#f55b2c"/>
   <meta name="color:Outside Link Hover" content="#131313"/>
   <meta name="color:Outside Text" content="#616566"/>
-  <meta name="font:Inside Heading" content="Helvetica Neue, Arial, sans-serif, Coming Soon"/>
-  <meta name="font:Inside Text" content="Georgia, serif, Coming Soon"/>
-  <meta name="font:Outside Heading" content="Helvetica Neue, Arial, sans-serif, Coming Soon"/>
-  <meta name="font:Outside Text" content="Helvetica Neue, Arial, sans-serif, Coming Soon"/>
+  <meta name="font:Inside Heading" content="Roboto"/>
+  <meta name="font:Inside Text" content="Roboto"/>
+  <meta name="font:Outside Heading" content="Roboto"/>
+  <meta name="font:Outside Text" content="Roboto"/>
   <meta name="image:Background" content=""/>
   <meta name="image:Banner" content=""/>
   <meta name="image:Large Sidebar Portrait" content=""/>
