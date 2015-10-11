@@ -1,0 +1,42 @@
+#sidebar .portrait, #sidebar .large-portrait {   border: 0;  -webkit-box-shadow: none;     -moz-box-shadow: none;          box-shadow: none;} #sidebar .large-portrait {  max-width: 180px;  min-width: 180px;}
+
+a, span  {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-labels .menu .label {
+    font-family: 'Roboto', sans-serif;
+}
+
+#twitter .profile .bio, #likes .via {
+    font-family: 'Roboto', sans-serif;
+}
+
+#search-form input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.type-answer h2.user-question, .meta, .type-quote .quote-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+#tabs #tabs-nav {
+    padding: 0;
+}
+
+#tabs-nav h2 {
+    font-size: 13px;   
+}
+.screen {
+    font-family: 'Roboto', sans-serif;
+}
+#tab-instagram {
+    color: black;
+}
+#tab-twitter {
+    color: black;
+}
