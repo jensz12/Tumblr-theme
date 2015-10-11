@@ -838,23 +838,16 @@
           <div class="side-box ruled-top">
             {block:IfSocialIconsHeading}<h2>{text:Social Icons Heading}</h2>{/block:IfSocialIconsHeading}
             <ul id="socialize">
-              {block:IfDribbbleUsername}<li class="dribbble"><a href="http://dribbble.com/players/{text:Dribbble Username}" title="{text:Dribbble Username} on Dribbble">{text:Dribbble Username} p&aring; Dribbble</a></li>{/block:IfDribbbleUsername}
-              {block:IfBehanceUsername}<li class="behance"><a href="http://www.behance.net/{text:Behance Username}" title="{text:Behance Username} on Behance">{text:Behance Username} p&aring;n Behance</a></li>{/block:IfBehanceUsername}
-              {block:IfCargoURL}<li class="cargo"><a href="{text:Cargo URL}" title="My Cargo Collective Site">p&aring; Cargo Collective Site</a></li>{/block:IfCargoURL}
-              {block:IfForrstUsername}<li class="forrst"><a href="http://forrst.com/people/{text:Forrst Username}" title="{text:Forrst Username} on Forrst">{text:Forrst Username} p&aring; Forrst</a></li>{/block:IfForrstUsername}
-              {block:IfFFFFoundUsername}<li class="ffffound"><a href="http://ffffound.com/home/{text:FFFFound Username}/found/" title="{text:FFFFound Username} on FFFFound">{text:FFFFound Username} p&aring; FFFFound</a></li>{/block:IfFFFFoundUsername}
               {block:IfTwitterUsername}<li class="twitter"><a href="http://www.twitter.com/{text:Twitter Username}" title="@{text:Twitter Username} on Twitter">@{text:Twitter Username} p&aring; Twitter</a></li>{/block:IfTwitterUsername}
               {block:IfFacebookUsername}<li class="facebook"><a href="http://www.facebook.com/{text:Facebook Username}" title="Facebook Profile">Mig p&aring; Facebook</a></li>{/block:IfFacebookUsername}
               {block:IfVimeoUsername}<li class="vimeo"><a href="http://www.vimeo.com/{text:Vimeo Username}" title="{text:Vimeo Username} on Vimeo">{text:Vimeo Username} p&aring; Vimeo</a></li>{/block:IfVimeoUsername}
               {block:IfYoutubeUsername}<li class="youtube"><a href="http://www.youtube.com/{text:Youtube Username}" title="{text:Youtube Username} on Youtube">{text:Youtube Username} p&aring; Youtube</a></li>{/block:IfYoutubeUsername}
               {block:IfFlickrUsername}<li class="flickr"><a href="http://www.flickr.com/photos/{text:Flickr Username}" title="{text:Flickr Username} on Flickr">{text:Flickr Username} p&aring; Flickr</a></li>{/block:IfFlickrUsername}
-              {block:IfDeliciousUsername}<li class="delicious"><a href="http://www.delicious.com/{text:Delicious Username}" title="{text:Delicious Username} on Delicious">{text:Delicious Username} p&aring; Delicious</a></li>{/block:IfDeliciousUsername}
               {block:IfPinboardUsername}<li class="pinboard"><a href="http://pinboard.in/u:{text:Pinboard Username}" title="{text:Pinboard Username} on Pinboard">{text:Pinboard Username} p&aring; Pinboard</a></li>{/block:IfPinboardUsername}
               {block:IfPinterestUsername}<li class="pinterest"><a href="http://pinterest.com/{text:Pinterest Username}" title="{text:Pinterest Username} on Pinterest">{text:Pinterest Username} p&aring; Pinterest</a></li>{/block:IfPinterestUsername}
               {block:IfLastfmUsername}<li class="lastfm"><a href="http://www.last.fm/user/{text:Lastfm Username}" title="{text:Lastfm Username} on Last.fm">{text:Lastfm Username} p&aring; Last.fm</a></li>{/block:IfLastfmUsername}
               {block:IfMyspaceFriendID}<li class="myspace"><a href="http://www.myspace.com/{text:Myspace Friend ID}" title="Myspace Profile">Myspace Profile</a></li>{/block:IfMyspaceFriendID}
               {block:IfSoundcloudUsername}<li class="soundcloud"><a href="http://soundcloud.com/{text:Soundcloud Username}" title="{text:Soundcloud Username} on Soundcloud">{text:Soundcloud Username} p&aring; Soundcloud</a></li>{/block:IfSoundcloudUsername}
-              {block:IfGroovesharkUsername}<li class="grooveshark"><a href="http://grooveshark.com/#/{text:Grooveshark Username}" title="{text:Grooveshark Username} on Grooveshark">{text:Grooveshark Username} p&aring; Grooveshark</a></li>{/block:IfGroovesharkUsername}
               {block:IfRdioUsername}<li class="rdio"><a href="http://www.rdio.com/#/people/{text:Rdio Username}" title="{text:Rdio Username} p&aring; Rdio">{text:Rdio Username} on Rdio</a></li>{/block:IfRdioUsername}
               {block:IfFoursquareUsername}<li class="foursquare"><a href="http://foursquare.com/{text:Foursquare Username}" title="{text:Foursquare Username} on Foursquare">{text:Foursquare Username} p&aring; Foursquare</a></li>{/block:IfFoursquareUsername}
               {block:IfGoogleURL}<li class="google"><a href="{text:Google URL}" title="Google">Mig p&aring; Google+</a></li>{/block:IfGoogleURL}
