@@ -210,7 +210,7 @@
   <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
   <link rel="stylesheet" href="http://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
   <link href="http://static.tumblr.com/hugxd2w/NA2mtcd2h/style.css" media="screen" rel="stylesheet" type="text/css" />
-  
+  <link href='http://static.tumblr.com/albwyqg/AjHnw2j84/customcss.css' rel='stylesheet' type='text/css'>
 
   <script type="text/javascript">
     tumblrUsername = '{PlaintextName}';
