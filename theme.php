@@ -816,8 +816,7 @@
             </div><!--/.description-->
           {/block:IfShowDescription}
         </div>
-        <div class="side-box ruled-top"><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:113314883&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></div><div></div>
-        <div class="side-box ruled-top"><h2>Hvad lytter jeg til</h2></div><div><iframe src="https://jensz12.com/static/script/lastfmblog.php" width="220" height="200"></iframe></div><!--/#blog-info -->
+        <div class="side-box ruled-top"><h2>Hvad lytter jeg til</h2><iframe src="https://jensz12.com/static/script/lastfmblog.php" width="220" height="175"></iframe></div><!--/#blog-info -->
 
         {block:IfSearchBoxInSidebar}
           <div id="search">
