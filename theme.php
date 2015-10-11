@@ -74,22 +74,15 @@
   <meta name="if:Show Tweets" content="1"/>
   <meta name="if:Show Twitter Profile" content="1"/>
   <meta name="if:Top Menu With Labels" content="0"/>
-  <meta name="text:Behance Username" content=""/>
-  <meta name="text:Cargo URL" content=""/>
   <meta name="text:Copyright Text" content=""/>
   <meta name="text:Default Search Text" content="Search"/>
-  <meta name="text:Delicious Username" content=""/>
   <meta name="text:Disqus Shortname" content=""/>
-  <meta name="text:Dribbble Username" content=""/>
-  <meta name="text:FFFFound Username" content=""/>
   <meta name="text:Facebook Username" content=""/>
   <meta name="text:Flickr Username" content=""/>
-  <meta name="text:Forrst Username" content=""/>
   <meta name="text:Foursquare Username" content=""/>
   <meta name="text:GetClicky Site ID" content=""/>
   <meta name="text:Google Analytics Web Property ID" content=""/>
   <meta name="text:Google URL" content=""/>
-  <meta name="text:Grooveshark Username" content=""/>
   <meta name="text:Instagram Heading" content="Instagram"/>
   <meta name="text:Instagram Access Token" content=""/>
   <meta name="text:Instagram Count Max 4" content="4"/>
@@ -210,7 +203,7 @@
   <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
   <link rel="stylesheet" href="http://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
   <link href="http://static.tumblr.com/hugxd2w/NA2mtcd2h/style.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='http://static.tumblr.com/albwyqg/AjHnw2j84/customcss.css' rel='stylesheet' type='text/css'>
+  <link href='http://static.tumblr.com/albwyqg/8Cdnw2k3k/customcss.css' rel='stylesheet' type='text/css'>
 
   <script type="text/javascript">
     tumblrUsername = '{PlaintextName}';
