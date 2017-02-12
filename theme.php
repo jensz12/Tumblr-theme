@@ -116,7 +116,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@jensz12">
     <meta name="twitter:creator" content="@jensz12">
-    <meta name="twitter:image" content="http://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
+    <meta name="twitter:image" content="https://static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
     <meta property="og:url" content="{Permalink}"/>
     <meta property="og:type" content="article"/>
 
@@ -202,8 +202,8 @@
   <link rel="apple-touch-icon" href="https://jensz12.com/favicon.png" />
   <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
   <link rel="stylesheet" href="http://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
-  <link href="http://static.tumblr.com/hugxd2w/NA2mtcd2h/style.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='http://static.tumblr.com/albwyqg/8Cdnw2k3k/customcss.css' rel='stylesheet' type='text/css'>
+  <link href="https://static.tumblr.com/hugxd2w/NA2mtcd2h/style.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://static.tumblr.com/albwyqg/8Cdnw2k3k/customcss.css' rel='stylesheet' type='text/css'>
 
   <script type="text/javascript">
     tumblrUsername = '{PlaintextName}';
@@ -740,7 +740,7 @@
                       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
                     })();
                   </script>
-                  <noscript>Javascript skal være til, for at kunne vise kommentare<a href="http://disqus.com/?ref_noscript={text:DisqusShortname}">comments powered by Disqus.</a></noscript>
+                  <noscript>Javascript skal være til, for at kunne vise kommentare<a href="https://disqus.com/?ref_noscript={text:DisqusShortname}">comments powered by Disqus.</a></noscript>
                   <p>Kommentarer leveret af Disqus</p>
                 </div><!-- /#disqus -->
               {/block:IfDisqusShortname}
@@ -978,10 +978,10 @@
   <script>window.jQuery || document.write('<script src="http://static.tumblr.com/hugxd2w/s4om61ic8/jquery-1.7.2.min.js"><\/script>')</script>
 
   
-    <script src="http://static.tumblr.com/hugxd2w/fvZmtcd1s/script.js" type="text/javascript"></script>
+    <script src="https://static.tumblr.com/hugxd2w/fvZmtcd1s/script.js" type="text/javascript"></script>
   
 
-  <script src="http://platform.twitter.com/widgets.js"></script>
+  <script src="https://platform.twitter.com/widgets.js"></script>
 
   <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
 
@@ -1009,7 +1009,7 @@
         ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
       })();
     </script>
-    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/{text:GetClicky Site ID}ns.gif" /></p></noscript>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="https://in.getclicky.com/{text:GetClicky Site ID}ns.gif" /></p></noscript>
   {/block:IfGetClickySiteID}
 </body>
 </html>
