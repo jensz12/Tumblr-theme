@@ -106,7 +106,7 @@
   <meta name="text:Youtube Username" content=""/>
   <meta name="text:github Username" content=""/>
   <link rel="publisher" href="https://plus.google.com/+jensmøllerjensz12" />
-<link rel="author" href="https://plus.google.com/+jensmøllerjensz12" />
+  <link rel="author" href="https://plus.google.com/+jensmøllerjensz12" />
 
   <!-- FACEBOOK & TWITTER OPEN GRAPH -->
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
@@ -197,11 +197,11 @@
     <meta name="twitter:image:src" content="https://secure.static.tumblr.com/128bfacde154cd1e26a7a8ddda17aa34/albwyqg/UIQnlxiod/tumblr_static_a5lwghc1wu0wksgkwcws084gc.png">
   {/block:IndexPage}
 
-  <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="https://jensz12.com/favicon.png" />
   <link rel="apple-touch-icon" href="https://jensz12.com/favicon.png" />
   <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
-  <link rel="stylesheet" href="http://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
+  <link rel="stylesheet" href="https://static.tumblr.com/xgwqnql/MF5lbpkr4/jquery.fancybox-1.3.1.css" media="screen"/>
   <link href="https://static.tumblr.com/hugxd2w/NA2mtcd2h/style.css" media="screen" rel="stylesheet" type="text/css" />
   <link href='https://static.tumblr.com/albwyqg/8Cdnw2k3k/customcss.css' rel='stylesheet' type='text/css'>
 
@@ -973,7 +973,7 @@
 
   <script src="/tweets.js"></script>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
   <script>window.jQuery || document.write('<script src="http://static.tumblr.com/hugxd2w/s4om61ic8/jquery-1.7.2.min.js"><\/script>')</script>
 
